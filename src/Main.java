@@ -10,7 +10,7 @@ public class Main {
 
         class Doctor {
             public void healCats (Cat cat){
-                System.out.println(StringStore.bodyWell);
+                System.out.println((Cat.class.toString()) + StringStore.bodyWell);
                 cat.run();
             }
         }
